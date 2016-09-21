@@ -1,0 +1,44 @@
+html,body, .cd-main-content{background: #29ccd2;}
+.nav-main {width: 100%; height: 60px; background: rgba(0,0,0,.5);}
+.menu-logo {float: left; height: 40px;}
+#mega-menu {
+    font: normal 13px Arial, sans-serif7;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: left;
+    height: 100%;
+}
+#mega-menu > li {
+    float: left;
+    height: 100%;
+}
+#mega-menu > li > a {
+    display: inline-block;
+    height: 100%;
+    line-height: 50px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 13px 0;
+}
+#mega-menu > li > a:hover {
+    background-color: #444;
+    color: #fff;
+}
+#mega-menu > li > a:focus {
+    background-color: #fff;
+    color: #444;
+}
+.menu-content {position: absolute; top: 60px; overflow: hidden;
+    background-repeat: no-repeat;
+    /*background-image: url("../images/silver-diamond-background-header.png");*/
+    background-color: #fff;
+    background-position: top -173% center;
+    max-height: 0;}
+.menu-content a {color: #444444; text-decoration: none; }
+.menu-pane {padding: 20px;}
+.menu-pane ul{margin: 0; padding: 0; list-style-type: none;}
+.menu-pane > ul > li:nth-child(1) > a,
+.menu-pane ul li a{display: block; padding: 5px 0;}
+#mega-menu > li > a:focus ~ .menu-content {max-height:none;}
+.menu-subheader > a {font-weight: bold;display: block; margin: 10px 0;}
